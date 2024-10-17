@@ -53,10 +53,9 @@ header{
 h1, h2, h3{
 	
 	text-align: center;
-	
 	font-family:  var(--heading-fonts);
-	
 	font-variant: small-caps;
+
 	/* center align the text */
 	/* use a web font here (instructions on page) */
 	/* make the heading text all small caps style */
@@ -71,8 +70,8 @@ h2{
 h3{
 	margin: 0;
 	padding: 4px;
-	/* add an underline like the one on the h2s to the h3s, but make it solid and mint color */
 	text-decoration: solid underline var(--mint) 2px;
+	/* add an underline like the one on the h2s to the h3s, but make it solid and mint color */
 }
 
 nav{
@@ -86,21 +85,23 @@ nav ul{
 }
 
 nav a{
-	/* make these display as block level elements */
+	
 	display: block;
 	margin: 1rem auto;
 	padding: 1rem;
 	background-color: var(--tiffany);
-	/* set the font color to #222 (--dk-gray) */
-	color: vat(--dk-gray);
-	/* center align the text */
+	color: var(--dk-gray);
 	text-align: center;
-	/* remove the underline */
 	text-decoration:  none;
-	/* make the font's size 1.2rem */
 	font-size: 1.2rem;
+	font-weight: 600;
+
+	/* make these display as block level elements */
+	/* set the font color to #222 (--dk-gray) */
+	/* center align the text */
+	/* remove the underline */
+	/* make the font's size 1.2rem */
 	/* make the font bolder (600) */
-	font-weight: bold;
 }
 
 nav a:hover{
@@ -121,13 +122,14 @@ section{
 }
 
 p{
-	/* set a max-width of 55 characters */
 	max-width: 55ch;
-	/* add an indent on the first line of 2rem */
-    text-indent: 2rem;
-	/* center those paragraphs (not the text) on the page */
 	margin: 0 auto;
+    text-indent: 2rem;
 	padding: 0.5rem;
+
+	/* set a max-width of 55 characters */
+	/* add an indent on the first line of 2rem */
+	/* center those paragraphs (not the text) on the page */
 }
 
 a{
